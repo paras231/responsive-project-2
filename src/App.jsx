@@ -1,10 +1,10 @@
 import React from 'react'
 import "./App.css";
-
+import Eventelist from './components/Eventelist'
 const App = () => {
   return (
     <>
-    <h1>HELLO WORLD</h1>
+  <Eventelist />
     </>
   )
 }
