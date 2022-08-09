@@ -110,7 +110,7 @@ font-weight:bold;
 const BigTextDiv  = styled.div`
   display:flex;
   margin-left:30px;
-  margin-top:-16px;
+  
 `
 const Categores = () => {
   return (
