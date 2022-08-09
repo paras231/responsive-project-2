@@ -1,10 +1,16 @@
 import React from 'react'
-import "./App.css";
+import Categores from './components/Categores'
 import Eventelist from './components/Eventelist'
+import "./App.css";
+
 const App = () => {
   return (
     <>
-  <Eventelist />
+   <Categores/>
+
+  <Eventelist/>
+
+
     </>
   )
 }
