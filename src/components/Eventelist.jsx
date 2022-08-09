@@ -6,13 +6,36 @@ import line from "../assets/line1.png";
 import cardimg1 from "../assets/Rectangle 1814.png";
 import darkline from "../assets/darkline.png";
 
-
 const MainDiv = styled.div`
   margin-top: 20vh;
   display: flex;
+  @media (min-width: 320px) and (max-width: 375px) {
+    display: grid;
+  }
+  @media (min-width: 376px) and (max-width: 420px) {
+    display: grid;
+  }
+  @media (min-width: 421px) and (max-width: 480px) {
+    display: grid;
+  }
+  @media (min-width: 481px) and (max-width: 560px) {
+    display: grid;
+  }
 `;
 const TextContainer = styled.div`
   display: grid;
+  @media (min-width: 320px) and (max-width: 375px) {
+   
+  }
+  @media (min-width: 376px) and (max-width: 420px) {
+  
+  }
+  @media (min-width: 421px) and (max-width: 480px) {
+  
+  }
+  @media (min-width: 481px) and (max-width: 560px) {
+  
+  }
 `;
 const StyledHeading = styled.p`
   font-family: "Poppins";
@@ -46,6 +69,18 @@ const Para1 = styled.p`
 const Para1Div = styled.div`
   margin-top: 5vh;
   width: 55vw;
+  @media (min-width: 320px) and (max-width: 375px) {
+    width: 80vw;
+  }
+  @media (min-width: 376px) and (max-width: 420px) {
+    width: 85vw;
+  }
+  @media (min-width: 421px) and (max-width: 480px) {
+    width: 85vw;
+  }
+  @media (min-width: 481px) and (max-width: 560px) {
+    width: 85vw;
+  }
 `;
 
 const ImageDiv = styled.div`
@@ -167,7 +202,7 @@ const Eventelist = () => {
               </CardTextDiv>
             </Card>
           </CardDiv>
-          <img src={darkline}/>
+          <img src={darkline} />
           <CardDiv>
             <Card>
               <CardImage src={cardimg1} alt="cardimg1" />
@@ -179,7 +214,7 @@ const Eventelist = () => {
               </CardTextDiv>
             </Card>
           </CardDiv>
-          <img src={darkline}/>
+          <img src={darkline} />
           <CardDiv>
             <Card>
               <CardImage src={cardimg1} alt="cardimg1" />
@@ -191,7 +226,7 @@ const Eventelist = () => {
               </CardTextDiv>
             </Card>
           </CardDiv>
-          <img src={darkline}/>
+          <img src={darkline} />
           <CardDiv>
             <Card>
               <CardImage src={cardimg1} alt="cardimg1" />
@@ -203,7 +238,7 @@ const Eventelist = () => {
               </CardTextDiv>
             </Card>
           </CardDiv>
-          <img src={darkline}/>
+          <img src={darkline} />
           <CardDiv>
             <Card>
               <CardImage src={cardimg1} alt="cardimg1" />
